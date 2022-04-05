@@ -1,16 +1,80 @@
-.aboutMetext{
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background: plum;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
 }
-.h1{
+
+
+
+h1{
+    text-align: center;
     font-size: 32px;
     color:black;
-    background-color: rgb(97, 112, 128);
-    text-align: center;
+    border: solid 5px lightgrey;
+    
 }
-.myPhoto{
-    width: 12px;
-    height: 12px;
+
+.first{
+    font-size: 30px;
+    font-weight: bold;
+    color: plum;
+    width:230px;
+    padding: 15px;
+}
+
+
+.aboutMetext{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+    float:left;
+    
+}
+
+.second{
+    font-size: 30px;
+    font-weight: bold;
+    color: plum;
+    width:280px;
+    padding: 15px;
+}
+
+.sns-img1{
+    width: 30%;
+    float: left;
+    height:30%;
+    border: 4px solid plum;
+    box-sizing: border-box;
+}
+.sns-img2{
+    float: left;
+    width:30%;
+    margin-left: 5%;
+    height:30%;
+    border: 4px solid plum;
+    box-sizing: border-box;
+}
+.sns-img3{
+    float: right;
+    width:30%;
+    height:30%;
+    border: 4px solid plum;
+    box-sizing: border-box;
+}
+
+.third{
+    font-size: 30px;
+    font-weight: bold;
+    color: plum;
+    width:230px;
+    padding: 20px;
+}
+
+.TMI{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+    float:left;
 }
