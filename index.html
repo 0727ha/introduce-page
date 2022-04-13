@@ -106,12 +106,13 @@
                   </div>
 
                   <script>
-
+                //버튼 색상 바꾸기
                 const colorBtn = document.querySelector(".color-btn");
                 colorBtn.addEventListener ("click", startColor);
                 function startColor() {
-                   colorBtn.style.color ="skyblue"; //버튼 색상 바꾸기
+                   colorBtn.style.color ="skyblue"; 
                 }
+                 //넷플릭스 추천작 사진 교차햣
                    function changeimage(){
                      var image=document.getElementById("abc");
                      if (image.src.match("recommend1")) {
@@ -121,7 +122,7 @@
                          image.src="images/recommend1.jpg";
                      }
                    }
-
+                   //제목 굵기 변경
                    function aboutme(){
                      document.getElementById("hz").style.fontWeight = "100";
                    }
