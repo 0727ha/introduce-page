@@ -71,10 +71,16 @@ h1{
     padding: 20px;
 }
 
-.TMI{
+.tmi{
     font-size: 20px;
     font-weight: bold;
     color: black;
     padding: 15px;
     float:left;
 }
+
+
+#abc {
+    height: 270px;
+}
+
